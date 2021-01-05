@@ -1,0 +1,78 @@
+body{
+    font-family: 'Poppins', sans-serif; 
+    margin: 0;
+}    
+h1{
+    font-size: 50px ;
+}
+h2{
+    font-size: 35px;
+}
+p{
+    color: dimgray;
+}
+.name-highlight{
+   color: orangered;
+}
+.half-width{
+    width:40%;
+    float:left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 60%;
+   
+}
+.top-banner{
+    background-image: url("top-banner.png");
+    background-repeat: no-repeat ;
+}
+section{
+    height: 500px;     /*float er jonno background image dekha jay na, so height diye dibo*/
+    padding-bottom: 150px;
+}
+a{
+    display: block;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px ;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    float: left;
+
+}
+.dream-area{
+    background-image: url("dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.exp-area{
+    background-image: url("exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.single-experience{
+box-shadow: 10px 10px 40px dimgray;
+border-radius: 10px;
+height: 80%;
+background-color: white;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient( lightsalmon,tomato);
+    border-image-slice: 1;
+    }
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient( blue,cyan);
+    border-image-slice: 1;
+}
+.foot{
+    color:dimgray;
+    text-align: center;
+}
